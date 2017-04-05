@@ -115,6 +115,10 @@ body.page-two-column.archive:not(.has-sidebar) #primary .page-header{
 	background-color: #404040;
 }
 
+ul#menu-footermenu {
+    padding: 0 5em;
+}
+
 ul#menu-footermenu li {
     display: inline-block;
 }
@@ -139,8 +143,11 @@ ul#menu-footermenu li {
 ul#menu-footermenu li:after {
     content: '|';
     color: #000;
-    margin: 0 8px;
+    margin: 0 5px;
     font-size: 14px;
+}
+ul#menu-footermenu li:last-child:after {
+    content: '';
 }
 
 /* Social site */
