@@ -1,0 +1,105 @@
+.slider-license {
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider-license .slider-block {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 50px;
+}
+
+
+.slider-license .slider-block .license {
+    width: 324px;
+    height: 115px;
+    background-color: #00508a;
+    border-radius: 3px;
+    background-image: url(../images/admin/sprite-license.png);
+    background-position: -37px -78px;
+    position: relative;
+    margin: 0 7px;
+    margin-bottom: 14px;
+}
+
+.slider-license .slider-block .license a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.slider-license .slider-block .license:hover {
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.slider-license .slider-block .license .icon {
+    background-image: url(../images/admin/sprite-license.png);
+}
+
+.slider-license .slider-block .license .text {
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.slider-license .slider-block .license .post-slider- {
+    width: 49px;
+    height: 49px;
+    background-position: -31px -555px;
+    margin-top: 19px;
+}
+
+.slider-license .slider-block .license .youtube {
+    width: 73px;
+    height: 51px;
+    background-position: -97px -554px;
+    margin-top: 17px;
+}
+
+.slider-license .slider-block .license .vimeo {
+    width: 60px;
+    height: 52px;
+    background-position: -190px -552px;
+    margin-top: 16px;
+}
+
+.slider-license .slider-block .license .advanced {
+    width: 54px;
+    height: 54px;
+    background-position: -262px -550px;
+    margin-top: 15px;
+}
+
+.slider-license .slider-block .license .full-option {
+    width: 63px;
+    height: 46px;
+    background-position: -331px -557px;
+    margin-top: 22px;
+}
+
+.slider-license .slider-block .license .description {
+    width: 67px;
+    height: 48px;
+    background-position: -409px -556px;
+    margin-top: 19px;
+}
+
+.slider-license .slider-block .license .slider-arrow {
+    width: 81px;
+    height: 58px;
+    background-position: -531px -649px;
+    margin-top: 13px;
+}
+
+.slider-license .slider-block .license .design {
+    width: 57px;
+    height: 52px;
+    background-position: -661px -651px;
+    margin-top: 16px;
+}
