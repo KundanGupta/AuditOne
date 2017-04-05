@@ -42,8 +42,12 @@ body{
 
 .main-navigation a:hover{
 	border-bottom: 3px solid #fff;
-	color: #fff;
+    color: #fff;
 	text-decoration: none;
+}
+
+.main-navigation a.active {
+    border-bottom: 3px solid #fff;
 }
 
 .auditone-global {
@@ -117,19 +121,26 @@ ul#menu-footermenu li {
 
 .footer-nav li a {
     color: #fafafa;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .footer-nav li a:hover {
     text-decoration: none;
 }
 
-.footer-nav span.separator {
+/*.footer-nav span.separator {
 	margin: 0 10px;
     border-left: 2px solid #1a1a1a;
     height: 14px;
     display: inline-block;
     margin-bottom: -2px;
+}*/
+
+ul#menu-footermenu li:after {
+    content: '|';
+    color: #000;
+    margin: 0 8px;
+    font-size: 14px;
 }
 
 /* Social site */

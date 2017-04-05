@@ -22,7 +22,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 	
 			<?php
-			echo "This is Home page.";
+			echo "This is a Home page.";
 			while ( have_posts() ) : the_post();
 
 				get_template_part( 'template-parts/page/content', 'page' );

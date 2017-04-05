@@ -24,8 +24,8 @@
 							wp_nav_menu( array(									
 								'menu_class'     => 'footer-nav',
 								'depth'          => 1,
-								'menu'			 => 'footermenu',
-								'link_after'     => '<span class="separator"></span>'
+								'menu'			 => 'footermenu'
+								//'link_after'     => '<span class="separator"></span>'
 							));
 							
 						// if ( has_nav_menu( 'social' ) ) : ?>
